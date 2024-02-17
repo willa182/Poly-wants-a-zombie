@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da50733ca13d24f45a2980dcd5a56ed5, type: 3}
+  m_Name: TerrainScenes
+  m_EditorClassIdentifier: 
+  m_terrainLoadingEnabled: 1
+  m_showTerrainLoadingDisabledWarning: 1
+  m_useAddressables: 0
+  m_preloadAddressablesWithImpostors: 1
+  m_colliderOnlyLoading: 0
+  m_terrainTilesX: 1
+  m_terrainTilesZ: 1
+  m_terrainTilesSize: 1024
+  m_useFloatingPointFix: 0
+  m_hasWorldMap: 1
+  m_worldMaprelativeSize: 0.5
+  m_worldMapRelativeHeightmapPixels: 1
+  m_worldMapPreviewHeightmapResolution: 4097
+  m_worldMapPreviewRange: 1024
+  m_worldMapPreviewTerrainHeight: 2048
+  m_terrainScenes:
+  - m_pos:
+      x: -512
+      y: 0
+      z: -512
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 0
+        y: 0
+        z: 0
+      m_Extents:
+        x: 512
+        y: 1024
+        z: 512
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20240217 - 171645/Terrain Scenes/Terrain_0_0-20240217
+      - 172635.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 0
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1708183612743
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 0
+  m_deactivateRuntimePlayer: 0
+  m_deactivateRuntimeLighting: 0
+  m_deactivateRuntimeAudio: 0
+  m_deactivateRuntimeWeather: 0
+  m_deactivateRuntimeWater: 0
+  m_deactivateRuntimeScreenShotter: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2309806517341661640}
   - component: {fileID: 4510350810235132097}
   - component: {fileID: 5748606829843921240}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: PW_Tree_Birch_01_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,12 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976735781371464021}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5434103612825755322}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4510350810235132097
 MeshFilter:
@@ -51,6 +52,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -93,7 +95,7 @@ GameObject:
   - component: {fileID: 442008576052835221}
   - component: {fileID: 5720886538388785175}
   - component: {fileID: 2889479640301235777}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: PW_Tree_Birch_01_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,12 +109,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2618643141612173217}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 2.5465852e-13, z: 4.1489137e-20}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5434103612825755322}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5720886538388785175
 MeshFilter:
@@ -133,6 +136,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -176,7 +180,7 @@ GameObject:
   - component: {fileID: 3666958630371221102}
   - component: {fileID: 5049796993574873397}
   - component: {fileID: 6241379312933359077}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: PW_Tree_Birch_01_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,12 +194,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4976721943061253569}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5434103612825755322}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5049796993574873397
 MeshFilter:
@@ -216,6 +221,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -259,7 +265,7 @@ GameObject:
   - component: {fileID: 5434103612825755322}
   - component: {fileID: 4835263907053389950}
   - component: {fileID: 8623791103330564958}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: PW_Tree_Birch_01
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -273,16 +279,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9021424363403193513}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -30.361906, y: 7.3016336e-16, z: -32.883633}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 442008576052835221}
   - {fileID: 3666958630371221102}
   - {fileID: 2309806517341661640}
   - {fileID: 753433009724561806}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &4835263907053389950
 LODGroup:
@@ -323,8 +330,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9021424363403193513}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.38
   m_Height: 11.553425
   m_Direction: 1
@@ -334,34 +350,33 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5434103612825755322}
     m_Modifications:
-    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 1034750358360096823, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 82
       objectReference: {fileID: 0}
-    - target: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256,
-        type: 3}
+    - target: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
 --- !u!4 &753433009724561806 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 3030205571705170351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
   m_PrefabInstance: {fileID: 2340122196330606625}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &5371785703247439582 stripped
 MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7707244595249092351, guid: 13d7c28633b47f1479af8b9443249256,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 7707244595249092351, guid: 13d7c28633b47f1479af8b9443249256, type: 3}
   m_PrefabInstance: {fileID: 2340122196330606625}
   m_PrefabAsset: {fileID: 0}

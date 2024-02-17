@@ -645,7 +645,10 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: FISHNET;FISHNET_V3
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Standalone: FISHNET;FISHNET_V3;CROSS_PLATFORM_INPUT;GAIA_2_PRESENT;GAIA_PRO_PRESENT;GAIA_MESH_PRESENT;FLORA_PRESENT
+    Windows Store Apps: MOBILE_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
